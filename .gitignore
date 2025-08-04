@@ -1,0 +1,10 @@
+.env
+.idea
+.DS_Store
+build
+composer.lock
+docs
+vendor
+coverage
+phpunit.xml
+.phpunit.result.cache
