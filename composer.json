@@ -1,0 +1,22 @@
+{
+    "name": "dutchcoder-kws/dev-doc",
+    "description": "A PHP library for generating developer documentation with attributes.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "documentation",
+        "attributes"
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "DutchcoderKws\\DevDoc\\": "src/"
+        }
+    }
+}
