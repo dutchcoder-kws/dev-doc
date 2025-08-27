@@ -10,12 +10,14 @@ use Attribute;
 class UseCaseItem
 {
 	public string $useCaseKey;
+	public string $action;
 	public string $type;
 	public string $description;
 
-	public function __construct(string $useCaseKey, string $type, string $description)
+	public function __construct(string $useCaseKey, string $action, string $type, string $description)
 	{
 		$this->useCaseKey = $useCaseKey;
+		$this->action = $action;
 		$this->type = $type;
 		$this->description = $description;
 	}

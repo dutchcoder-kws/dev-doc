@@ -10,11 +10,13 @@ use Attribute;
 class UseCase
 {
 	public string $key;
+	public string $title;
 	public string $description;
 
-	public function __construct(string $key, string $description)
+	public function __construct(string $key, string $title, string $description)
 	{
 		$this->key = $key;
+		$this->title = $title;
 		$this->description = $description;
 	}
 }
